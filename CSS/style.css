@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2? family = Poppins: wght @ 100; 200; 300; 400; 500; 500; 600; 700 & display = swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body {
+    min-height: 100px;
+    
+}
+header {
+    background-color: brown;
+    padding-top: 20px;
+}
+.cabecalho {
+    padding-left: 200px;
+    padding-top: 30px;
+}
+#menu-h {
+    list-style: none;
+    display: inline;
+    padding: 0;
+}
+#menu-h li {
+    display: inline;
+}
+
+#menu-h li a {
+    color: #ffffff;
+    text-decoration: none;
+    padding: 15px;
+    display: inline-block;
+    
+}
