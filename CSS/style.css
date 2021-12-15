@@ -7,12 +7,15 @@
     font-family: 'Poppins', sans-serif;
 }
 body {
-    min-height: 100px;
+    
     
 }
 header {
-    background-color: brown;
+    background-color: rgb(126, 13, 13);
     padding-top: 20px;
+}
+img {
+    padding: 0px 0px 10px 0px;
 }
 .cabecalho {
     padding-left: 200px;
@@ -21,7 +24,7 @@ header {
 #menu-h {
     list-style: none;
     display: inline;
-    padding: 0;
+    padding: 0px 0px 0px 100px;
 }
 #menu-h li {
     display: inline;
@@ -32,5 +35,9 @@ header {
     text-decoration: none;
     padding: 15px;
     display: inline-block;
+    transition: background .3s;
     
+}
+#menu-h li a:hover {
+    background-color: burlywood;
 }
