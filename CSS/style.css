@@ -11,14 +11,20 @@
 }
 
 body {
-    max-width: 100%;
-    margin: auto;
+    text-align: center;
     
 }
 header {
     background-color: rgb(255, 255, 255);
     display: flex;
     align-items: center;
+}
+.cabecalho{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #FFE220;
+    width: 1200px;
 }
 img {
     margin: 20px 40px 20px 100px;
@@ -27,6 +33,7 @@ img {
     margin: auto;
 }
 #menu-h li {
+    flex: 1;
     list-style: none;
     display: inline;
     
