@@ -6,28 +6,19 @@
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
-:root {
-    
-}
-
 body {
     text-align: center;
-    
 }
 header {
     background-color: rgb(255, 255, 255);
-    display: flex;
-    align-items: center;
+    margin: 20px 0px;
 }
-.cabecalho{
+header .cabecalho{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #FFE220;
-    width: 1200px;
-}
-img {
-    margin: 20px 40px 20px 100px;
+    width: 1100px;
+    margin: auto;
 }
 #menu-h {
     margin: auto;
@@ -46,32 +37,27 @@ img {
     transition: background .6s;
 }
 #menu-h li a:hover {
-    background-color: #FFE220;
+    border-bottom:4px solid #FFE220;
 }
-.slide {
-    background-color: tomato;
+/*CONFIGURACAO SLIDE*/
+
+.banners {
     display: flex;
-    align-items: center;
-    padding: 0;
-    
+    justify-content: center;
+    background-image: url(/imagens/slide-fundo.png);
+
 }
-.fundo-slide{
-    margin: auto;
-    display: inline;
-        
-}
-.slide h1 {
-    position: absolute;
+.banner--left {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    align-items:center;
     color: #FFE220;
-    font-size: 4em;
-    margin-left: 80px;
-    font-family: Popping, sans-serif;
-    font-weight: 900;
+    font-size: 40px;
+    padding: 50px;
+    text-align: left;
+    line-height: 65px;
 }
-.maquina-slide {
-    width: 600px;
-    margin: 0%;
-    position: absolute;
-    right: 0;
-    top: 112px;
+.banner--right {
+    flex: 1; 
 }
