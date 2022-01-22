@@ -29,16 +29,20 @@ header .cabecalho{
     display: inline;
     
 }
+.botao {
+    background-color: #FFE220;
+}
 #menu-h li a {
     text-decoration: none;
     font-family: Poppins,sans-serif;
     color: #1D6132;
     padding: 20px;
-    transition: background .6s;
+    /*transition: background .6s;*/
 }
 #menu-h li a:hover {
-    border-bottom:4px solid #FFE220;
+    border-bottom: 4px solid #FFE220;
 }
+
 /*CONFIGURACAO SLIDE*/
 
 .banners {
