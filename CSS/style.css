@@ -101,7 +101,7 @@ section .banner--right {
 }
 .section--title-matriz h3 {
     font-size: 22px;
-    font-weight: 400;
+    font-weight: 300;
     color: #1D6132;
 }
 .section--info {
@@ -119,8 +119,8 @@ section .banner--right {
 .info-item-bancalino {
     flex: 1;
     padding: 15px;
-    background-color: #dddddd;
-    margin-right: 30px;
+    background-color: #ececec;
+    margin: 0px 20px;
     color: #1D6132;
     border-radius: 5px;
     
@@ -128,4 +128,20 @@ section .banner--right {
 .info-item-img img{
     box-shadow: 1px 1px 20px rgb(255, 255, 255);
     margin-bottom: 10px;
+}
+.section--info-buttom {
+    margin: 40px 0;
+}
+.section--info-buttom a {
+    text-decoration: none;
+    background-color: #1D6132;
+    padding: 10px 30px;
+    color: #fff;
+    font-size: 18px;
+}
+.section--info-buttom a:hover {
+    background-color: #FFE220;
+    color: #1D6132;
+    transition: all ease 0.5s;
+    box-shadow: 1px 1px 10px #999;
 }
