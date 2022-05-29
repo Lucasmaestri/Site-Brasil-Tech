@@ -91,7 +91,7 @@ section .banner--right {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 50px 0;
+    margin: 30px 0;
     flex-direction: column;
 }
 .section--title-matriz h1 {
@@ -125,6 +125,15 @@ section .banner--right {
     border-radius: 5px;
     
 }
+.info-item-peneira:hover {
+    box-shadow: 1px 1px 10px rgb(175, 175, 175);
+}
+.info-item-bancalino:hover {
+    box-shadow: 1px 1px 10px rgb(175, 175, 175);
+}
+.info-item-maquina:hover {
+    box-shadow: 1px 1px 10px rgb(175, 175, 175);
+}
 .info-item-img img{
     box-shadow: 1px 1px 20px rgb(255, 255, 255);
     margin-bottom: 10px;
@@ -144,4 +153,45 @@ section .banner--right {
     color: #1D6132;
     transition: all ease 0.5s;
     box-shadow: 1px 1px 10px #999;
+}
+
+/* AREA DE SERVIÇOS*/
+
+.title-service {
+    width: 100%;
+    height: 80px;
+    background-color: #FFE220;
+    display: flex;
+    justify-content: center;
+}
+.title-service h4 {
+    font-size: 45px;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 10px;
+    color: #1D6132;
+}
+.menu-service {
+    width: 100%;
+    background-color: rgb(230, 230, 230);
+}
+.desc-fot-service {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #1D6132;
+}
+.desc-service {
+    flex: 1;
+    padding: 0 0 0 100px;
+}
+.fot-service {
+    flex: 1;
+    padding:50px 0;
+    z-index: 1;
+}
+.desc-service .center {
+    flex: 1;
+    
 }
