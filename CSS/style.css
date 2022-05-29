@@ -177,18 +177,23 @@ section .banner--right {
     background-color: rgb(230, 230, 230);
 }
 .desc-fot-service {
+    width: 1115px;
     display: flex;
     justify-content: center;
     align-items: center;
     color: #1D6132;
+    margin: auto;
+    padding-top: 30px;
 }
 .desc-service {
     flex: 1;
-    padding: 0 0 0 100px;
+    padding: 0 20px;
+}
+.desc-service h3{
+    font-size: 2em;
 }
 .fot-service {
-    flex: 1;
-    padding:50px 0;
+    flex: 1
     z-index: 1;
 }
 .desc-service .center {
