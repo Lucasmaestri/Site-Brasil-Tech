@@ -183,7 +183,7 @@ section .banner--right {
     align-items: center;
     color: #1D6132;
     margin: auto;
-    padding-top: 30px;
+    padding: 40px 0;
 }
 .desc-service {
     flex: 1;
@@ -192,11 +192,33 @@ section .banner--right {
 .desc-service h3{
     font-size: 2em;
 }
+.desc-service p {
+    font-size: 0,5em;
+    margin-top: 15px;
+}
 .fot-service {
-    flex: 1
-    z-index: 1;
+    flex: 1;
 }
 .desc-service .center {
     flex: 1;
     
+}
+
+/*SOBRE NÓS*/
+
+.sobre-nos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.left-sobre-nos {
+    flex: 1;
+    background-image: url(/imagens/sobre-nos-amarelo.png);
+    height: 576px;
+}
+.right-sobre-nos {
+    flex: 1;
+    background-image: url(/imagens/sobre-nos.png);
+    height: 576px;
 }
