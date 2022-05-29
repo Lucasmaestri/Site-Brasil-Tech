@@ -210,15 +210,66 @@ section .banner--right {
     display: flex;
     justify-content: center;
     align-items: center;
+    
 }
 
 .left-sobre-nos {
     flex: 1;
     background-image: url(/imagens/sobre-nos-amarelo.png);
     height: 576px;
+    padding: 100px 50px;
 }
+.desc-sobre-nos {
+    display: flex;
+    flex-direction: column;
+}
+.desc-sobre-nos h3 {
+    font-size: 2em;
+}
+.desc-sobre-nos p {
+    margin-top: 20px;
+}
+.traco {
+    width: 50px;
+    height: 4px;
+    background-color: #1D6132;
+    margin: auto;
+}
+
 .right-sobre-nos {
     flex: 1;
     background-image: url(/imagens/sobre-nos.png);
     height: 576px;
+}
+
+/*FORMULARIO*/
+
+.formulario {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 1115px;
+    margin: auto;
+}
+.title-form {
+    font-size: 2em;
+}
+.title-form .square {
+    width: 100px;
+    height: 5px;
+    background-color: #1D6132;
+}
+.info-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.info-form .desc-form {
+    flex: 1;
+}
+.info-form .map-form {
+    flex: 1;
+    width: 510px;
+    height: 585px;
 }
