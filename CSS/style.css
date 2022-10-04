@@ -91,7 +91,7 @@ section .banner--right {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 50px 0;
+    margin: 30px 0;
     flex-direction: column;
 }
 .section--title-matriz h1 {
@@ -125,6 +125,15 @@ section .banner--right {
     border-radius: 5px;
     
 }
+.info-item-peneira:hover {
+    box-shadow: 1px 1px 10px rgb(175, 175, 175);
+}
+.info-item-bancalino:hover {
+    box-shadow: 1px 1px 10px rgb(175, 175, 175);
+}
+.info-item-maquina:hover {
+    box-shadow: 1px 1px 10px rgb(175, 175, 175);
+}
 .info-item-img img{
     box-shadow: 1px 1px 20px rgb(255, 255, 255);
     margin-bottom: 10px;
@@ -144,4 +153,123 @@ section .banner--right {
     color: #1D6132;
     transition: all ease 0.5s;
     box-shadow: 1px 1px 10px #999;
+}
+
+/* AREA DE SERVIÇOS*/
+
+.title-service {
+    width: 100%;
+    height: 80px;
+    background-color: #FFE220;
+    display: flex;
+    justify-content: center;
+}
+.title-service h4 {
+    font-size: 45px;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 10px;
+    color: #1D6132;
+}
+.menu-service {
+    width: 100%;
+    background-color: rgb(230, 230, 230);
+}
+.desc-fot-service {
+    width: 1115px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #1D6132;
+    margin: auto;
+    padding: 40px 0;
+}
+.desc-service {
+    flex: 1;
+    padding: 0 20px;
+}
+.desc-service h3{
+    font-size: 2em;
+}
+.desc-service p {
+    font-size: 0,5em;
+    margin-top: 15px;
+}
+.fot-service {
+    flex: 1;
+}
+.desc-service .center {
+    flex: 1;
+    
+}
+
+/*SOBRE NÓS*/
+
+.sobre-nos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.left-sobre-nos {
+    flex: 1;
+    background-image: url(/imagens/sobre-nos-amarelo.png);
+    height: 576px;
+    padding: 100px 50px;
+}
+.desc-sobre-nos {
+    display: flex;
+    flex-direction: column;
+}
+.desc-sobre-nos h3 {
+    font-size: 2em;
+}
+.desc-sobre-nos p {
+    margin-top: 20px;
+}
+.traco {
+    width: 50px;
+    height: 4px;
+    background-color: #1D6132;
+    margin: auto;
+}
+
+.right-sobre-nos {
+    flex: 1;
+    background-image: url(/imagens/sobre-nos.png);
+    height: 576px;
+}
+
+/*FORMULARIO*/
+
+.formulario {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 1115px;
+    margin: auto;
+}
+.title-form {
+    font-size: 2em;
+}
+.title-form .square {
+    width: 100px;
+    height: 5px;
+    background-color: #1D6132;
+}
+.info-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.info-form .desc-form {
+    flex: 1;
+}
+.info-form .map-form {
+    flex: 1;
+    width: 510px;
+    height: 585px;
 }
